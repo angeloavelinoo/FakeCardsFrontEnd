@@ -1,0 +1,13 @@
+<div class="content-area">
+    <form class="area-form">
+        <h1 class="titulo">Fake Cards</h1>
+        <input [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="input-form" type="text" placeholder="Enter your email">
+        <input [(ngModel)]="senha" [ngModelOptions]="{standalone: true}" class="input-form" type="text" placeholder="Enter your password">
+        <input [(ngModel)]="nome" [ngModelOptions]="{standalone: true}"  class="input-form" type="text" placeholder="Enter your name">
+        <input [(ngModel)]="dataNasc" [ngModelOptions]="{standalone: true}" class="input-form" type="date" placeholder="Enter your born date">
+
+        <app-button textButton="SignUp" ></app-button>
+
+        <p>Already have an account ? <a href="login">Login</a></p>
+    </form>
+</div>

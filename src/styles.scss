@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sketch Gothic School';
+    font-weight: 500;
+}
+
+.hover:hover{cursor: pointer}
+
+
+@font-face{
+    font-family: 'Sketch Gothic School';
+    src: url('assets/fonts/Sketch-Gothic-School.ttf') format("truetype");
+    font-style: normal;
+}
